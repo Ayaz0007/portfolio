@@ -59,7 +59,7 @@ const NavBar = (props) => {
 							</li>
 							<li className="nav-item">
 								<a
-									href={`${process.env.PUBLIC_URL}/Mohd_Ayaz_Resume.pdf`}
+									href={`${import.meta.env.BASE_URL}Mohd_Ayaz_Resume.pdf`}
 									target="_blank"
 									rel="noopener noreferrer"
 								>
