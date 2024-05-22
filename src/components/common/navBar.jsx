@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
-import Resume from "../Resume";  //add path for resume
 
 const NavBar = (props) => {
 	const { active } = props;
@@ -60,7 +59,7 @@ const NavBar = (props) => {
 							</li>
 							<li className="nav-item">
 								<a
-									href={Resume}  //add resume pdf
+									href="/Mohd_Ayaz_Resume.pdf"
 									target="_blank"
 									rel="noopener noreferrer"
 								>

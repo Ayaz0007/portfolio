@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <h2>Resume</h2>
-      <iframe title="Resume" src="/Mohd_Ayaz_Resume.pdf" width="100%" height="800px"></iframe>
+      <iframe title="Resume" src={`${process.env.PUBLIC_URL}/Mohd_Ayaz_Resume.pdf`} width="100%" height="800px"></iframe>
     </div>
   );
 }
