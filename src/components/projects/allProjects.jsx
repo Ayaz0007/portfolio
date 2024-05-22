@@ -16,7 +16,7 @@ const AllProjects = () => {
 						title={project.title}
 						description={project.description}
 						linkText={project.linkText}
-						link={project.link}
+						link={`${import.meta.env.BASE_URL}${project.link}`}
 					/>
 				</div>
 			))}
