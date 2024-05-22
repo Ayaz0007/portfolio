@@ -48,7 +48,7 @@ const INFO = {
 			description:
 				"I built this project to showcase my front-end web development skills using JavaScript. Users can easily check real-time weather conditions worldwide. Explore the app to see how I've integrated JavaScript, APIs, and DOM manipulation for a seamless user experience!",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "https://ayaz0007.github.io/weather-app/",
 			link: "https://ayaz0007.github.io/weather-app/",
 		},
 
