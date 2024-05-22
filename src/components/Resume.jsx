@@ -1,5 +1,3 @@
-// Resume.js
-
 import React from 'react';
 
 const Resume = () => {
