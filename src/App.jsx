@@ -30,7 +30,7 @@ function App() {
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
-				<Route path="/resume" component={Resume} />
+				<Route path="/resume" component={<Resume />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
